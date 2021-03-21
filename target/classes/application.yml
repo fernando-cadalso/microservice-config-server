@@ -1,0 +1,15 @@
+
+server:
+  port: 8888
+  
+spring:
+#  application:
+#    name: configserver
+  cloud:
+    config:
+      server:
+        git: 
+          uri: https://github.com/fernando-cadalso/microservice-repo
+          search-paths: fornecedor 
+          #Path pesquisado no git onde estão salvos os arquivos de configuração.
+          
