@@ -11,6 +11,6 @@ spring:
         git: 
           uri: ${URI}
 #          uri: https://github.com/fernando-cadalso/microservice-repo
-          search-paths: fornecedor 
+          search-paths: fornecedor,loja 
           #Path pesquisado no git onde estão salvos os arquivos de configuração.
           
